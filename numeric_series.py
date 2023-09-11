@@ -126,7 +126,7 @@ if __name__ == "__main__":
 
     name1 = "Quiz Scores Module 1"
     units1 = "pts"
-    data1 = [9,9,10, 9, 7, 10]
+    data1 = [10,10,10, 10, 10, 10]
 
     object1 = NumericSeries(name1, units1, data1)
 
@@ -135,7 +135,7 @@ if __name__ == "__main__":
 
     name2 = "Quiz Scores Module 2"
     units2 = "pts"
-    data2 = [8, 10, 8, 10, 8, 10,10, 10]
+    data2 = [8, 8, 8, 8, 8, 8,8, 8]
 
     object2 = NumericSeries(name2, units2, data2)
     
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     # list() converts the range object to a list
     # range() is a generator - it creates a sequence of numbers without storing them in memory
     # The arguments in range are from (inclusive) and to (exclusive)
-    data3 = list(range(7,11))    
+    data3 = list(range(5,12))    
     name3 = "Quiz Scores Module 3"
     units3 = "pts"
     
